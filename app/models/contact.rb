@@ -1,5 +1,5 @@
-class Contacts
-  attr_accessor: :first_name, :last_name, :email, :phone_number
+class Contact
+  attr_accessor :first_name, :last_name, :email, :phone_number
 
   def initialize(input_options)
     @first_name = input_options[:first_name]
